@@ -34,7 +34,7 @@ html,body{
     font-size: 17px;
 }
 
-a{
+.cabeçalho > h2 > a{
     text-decoration: none;
 }
 
@@ -47,13 +47,39 @@ section{
     font-size: 22px;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 5vh;
+    padding-left: 7vh;
     line-height: 2em;
+}
+
+.com-imagem{
+    color: white;
+    background-attachment: fixed;
+}
+
+section#imagem-01{
+    background-image: url(../imagens/dicentra1.jpg);
+    height: 400px;
+}
+
+section#imagem-02{
+    background-image: url(../imagens/carta04.jpg);
+    height: 400px;
+    
 }
 
 .com-imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.322);
-    
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
 }
 
+.rodapé{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte1);
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+}
+
+  
