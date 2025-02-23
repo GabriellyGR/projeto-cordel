@@ -57,18 +57,20 @@ section{
 }
 
 section#imagem-01{
-    background-image: url(../imagens/dicentra1.jpg);
-    height: 400px;
+    background-image: url(../imagens/dicentra.jpg);
+    background-position: left center;
+    background-size: cover;
 }
 
 section#imagem-02{
-    background-image: url(../imagens/carta04.jpg);
-    height: 400px;
-    
+    background-image: url(../imagens/carta.jpg);
+    background-position: center bottom;
+    background-size: cover;
 }
 
 .com-imagem > p{
     width: 400px;
+    text-shadow: 2px 2px 1px black;
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 20px;
     padding: 10px 0px 10px 10px;
@@ -78,6 +80,7 @@ section#imagem-02{
     background-color: black;
     color: white;
     font-family: var(--fonte1);
+    font-size: 15px;
     padding: 3px 0px 3px 0px;
     text-align: center;
 }
